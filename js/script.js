@@ -10,6 +10,7 @@ const telaInicial = document.querySelector(".tela-inicial");
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 botaoIniciar.addEventListener('click', iniciaJogo);
 
@@ -35,6 +36,12 @@ function mostraPergunta() {};
 
   function mostraAlternativas() {}
 
-  function mostraResultados() {}
+  function mostraResultados() {
+    caixaPerguntas.textContent = 'após tudo isso, ele morreu feliz';
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add(".mostrar");
+    botaoJogarNovamente.addEventListener("click", jogarNovamente);
+  }
 
   function jogarNovamente() {}
