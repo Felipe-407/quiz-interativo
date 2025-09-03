@@ -23,3 +23,18 @@ function iniciaJogo() {
 }
 
 function mostraPergunta() {};
+  if(atual) >= perguntas.length){
+    mostraResultados();
+    return;
+  }
+  perguntaAtual = pergunta [Atual};
+  caixaPerguntas.textContent = perguntaAtual.enunciado;
+  caixaAlternativas.textContent = "";
+  mostraAlternativas();
+  }
+
+  function mostraAlternativas() {}
+
+  function mostraResultados() {}
+
+  function jogarNovamente() {}
