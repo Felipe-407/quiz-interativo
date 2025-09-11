@@ -44,4 +44,16 @@ function mostraPergunta() {};
     botaoJogarNovamente.addEventListener("click", jogarNovamente);
   }
 
+
+
+  function respostaSelecionada(opcaoSelecionada) {}
+
+function mostraResultado() {
+  caixaPerguntas.textContent = `Após tudo isso, ${nome} descobriu que`;
+  textoResultado.textContent = historiaFinal;
+  caixaAlternativas.textContent = "";
+  caixaResultado.classList.add(".mostrar");
+  botaoJogarNovamente.addEventListener("click", jogarNovamente);
+}
+
   function jogarNovamente() {}
