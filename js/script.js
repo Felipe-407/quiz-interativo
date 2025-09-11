@@ -57,3 +57,25 @@ function mostraResultado() {
 }
 
   function jogarNovamente() {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+substituiNome();
