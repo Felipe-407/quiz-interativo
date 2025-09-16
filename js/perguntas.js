@@ -1,95 +1,97 @@
 const perguntas = [
     {
-        enunciado: "pergunta 1",
+        enunciado: "você prefere Nike ou adidas?"
+
+        ],
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "Nike",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    " você tem um bom gosto",
+                    " você tem um gosto ruim"
                 ],
             },
            {
-                texto: "afirmativa 2",
+                texto: "adidas",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    " você tem gosto ruim ",
+                    " você tem um bom gosto "
                 ],
             }
         ]
     },
     {
-        enunciado: "pergunta 1",
+        enunciado: " você prefere camisas nike ou adidas?",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "nike",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "você tem um bom gosto",
+                    "você tem um gosto ruim "
                 ],
             },
            {
-                texto: "afirmativa 2",
+                texto: "adidas",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "você tem um gosto ruim",
+                    "você tem um bom gosto"
                 ],
             }
         ]
     },
     {
-        enunciado: "pergunta 1",
+        enunciado: "você prefere boné nike ou boné adidas?",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "nike",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "você tem um bom gosto",
+                    "você tem um gosto ruim""
                 ],
             },
            {
-                texto: "afirmativa 2",
+                texto: "adidas",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "você tem um gosto ruim"",
+                    "você tem um bom gosto"
                 ],
             }
         ]
     },
     {
-        enunciado: "pergunta 1",
+        enunciado: "você prefere cueca nike ou cueca adidas?",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "nike",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "você tem um bom gosto",
+                    "você tem um gosto ruim""
                 ],
             },
            {
-                texto: "afirmativa 2",
+                texto: "adidas",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "você tem um gosto ruim"",
+                    "você tem um bom gosto"
                 ],
             }
         ]
     },
     {
-        enunciado: "pergunta 1",
+        enunciado: "você prefere calça nike ou calça adidas",
         alternativas: [
             {
-                texto: "afirmativa 1",
+                texto: "nike",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "você tem um bom gosto",
+                    "você tem um gosto ruim""
                 ],
             },
            {
-                texto: "afirmativa 2",
+                texto: "adidas",
                 afirmacao: [
-                    "afirmação 1",
-                    "afirmação 2"
+                    "você tem um gosto ruim"",
+                    "você tem um bom gosto"
                 ],
             }
         ]
