@@ -1,15 +1,14 @@
 const perguntas = [
     {
-        enunciado: "você prefere Nike ou adidas?"
-
-        ],
-        alternativas: [
+        enunciado: "você prefere Nike ou adidas?",
+       alternativas: [
             {
                 texto: "Nike",
                 afirmacao: [
                     " você tem um bom gosto",
                     " você tem um gosto ruim"
                 ],
+                proxima: 1,
             },
            {
                 texto: "adidas",
@@ -17,6 +16,7 @@ const perguntas = [
                     " você tem gosto ruim ",
                     " você tem um bom gosto "
                 ],
+                proxima: 1,
             }
         ]
     },
@@ -29,6 +29,7 @@ const perguntas = [
                     "você tem um bom gosto",
                     "você tem um gosto ruim "
                 ],
+                proxima: 2,
             },
            {
                 texto: "adidas",
@@ -36,6 +37,7 @@ const perguntas = [
                     "você tem um gosto ruim",
                     "você tem um bom gosto"
                 ],
+                proxima: 2,
             }
         ]
     },
@@ -48,6 +50,7 @@ const perguntas = [
                     "você tem um bom gosto",
                     "você tem um gosto ruim""
                 ],
+                proxima: 3,
             },
            {
                 texto: "adidas",
@@ -55,6 +58,7 @@ const perguntas = [
                     "você tem um gosto ruim"",
                     "você tem um bom gosto"
                 ],
+                proxima: 3,
             }
         ]
     },
@@ -67,13 +71,14 @@ const perguntas = [
                     "você tem um bom gosto",
                     "você tem um gosto ruim""
                 ],
+                proxima: 4,
             },
            {
                 texto: "adidas",
                 afirmacao: [
                     "você tem um gosto ruim"",
                     "você tem um bom gosto"
-                ],
+                ]proxima: 4,
             }
         ]
     },
@@ -86,6 +91,7 @@ const perguntas = [
                     "você tem um bom gosto",
                     "você tem um gosto ruim""
                 ],
+                proxima: 5,
             },
            {
                 texto: "adidas",
@@ -93,6 +99,7 @@ const perguntas = [
                     "você tem um gosto ruim"",
                     "você tem um bom gosto"
                 ],
+                proxima: 5,
             }
         ]
     }
