@@ -56,26 +56,24 @@ function mostraResultado() {
   botaoJogarNovamente.addEventListener("click", jogarNovamente);
 }
 
-  function jogarNovamente() {}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ function mostraResultado(){
+    caixaPerguntas.textContent = `Após os estudos, ${nome} descobriu que`;
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
+    caixaResultado.classList.add("mostrar"); 
+    botaoJogarNovamente.addEventListener("click", jogarNovamente); 
 }
-substituiNome();
+
+function jogarNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    caixaResultado.classList.remove("mostrar"); 
+    mostraPergunta();
+}
+
+function substituiNome() {
+    for(const pergunta of perguntas) {
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+}
+substituiNome(); 
